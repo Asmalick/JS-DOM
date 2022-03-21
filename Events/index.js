@@ -33,7 +33,18 @@ function  faireQuelqueChose() {
 
 
     if(e.x > 500) {
-        document.body.style.filter =
+        document.body.style.filter = "blur(3px)";
+        
+    } else {
+        document.body.style.filter = "none";
     }
 
- })
+ }) 
+
+ //*************************** */
+
+//document.getElementById('input').addEventListener('input', (e)=>{
+     //console.log('Yes');
+     //console.log(e.target.value);
+ //    vertical.innerHTML = e.target.value
+// });

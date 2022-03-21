@@ -28,8 +28,32 @@ img {
     border:6px solid red;
     width: 220px;
     position: absolute;
-    left: 50%;
+    left: 10%;
     transform: translateX(-50%); /*permet de centrer */
     padding: 10px;
 
+}
+.themeContainer {
+    position: fixed;
+    top: 0;
+
+}
+
+.theme {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#dark {
+    background: #000;
+
+}
+
+#salmon {
+    background: salmon;
+
+}
+#yellow {
+    background: yellow;
 }
