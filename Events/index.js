@@ -29,5 +29,11 @@ function  faireQuelqueChose() {
     // console.log('Yes');
     horizontal.innerHTML = e.x;
     vertical.innerHTML = e.y;
-    mouseEvent.style.left = e.x /window.innerWidth * 100 + "%"
+    mouseEvent.style.left = e.x /window.innerWidth * 100 + "% ";
+
+
+    if(e.x > 500) {
+        document.body.style.filter =
+    }
+
  })
