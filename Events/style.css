@@ -29,7 +29,7 @@ img {
     width: 220px;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); /*permet de centrer */
     padding: 10px;
 
 }
