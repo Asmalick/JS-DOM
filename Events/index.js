@@ -1,0 +1,21 @@
+// functions 
+/*
+function  faireQuelqueChose() {
+    console.log('je fais un ');
+}
+ const faireUneTache = (type) => {
+    console.log('je fais :'+type);
+ }
+ faireUneTache('la vaisselle');
+ faireUneTache('les courses'); */
+
+
+ const btn =document.querySelector('#btn');
+ const img = document.getElementById('img');
+
+
+ btn.addEventListener('click',()=> {
+    // console.log('yes');
+    //img.classList.add('show');
+    img.classList.toggle('show'); // toggle permet de la faire apparaitre/disparaitre au clic. 
+ })
