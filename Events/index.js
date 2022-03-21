@@ -19,3 +19,15 @@ function  faireQuelqueChose() {
     //img.classList.add('show');
     img.classList.toggle('show'); // toggle permet de la faire apparaitre/disparaitre au clic. 
  })
+
+ //********************************** */
+ const mouseEvent = document.querySelector('.mouseEvent');
+ const horizontal = document.querySelector('.horizontal');
+ const vertical = document.querySelector('.vertical');
+
+ mouseEvent;addEventListener('mousemove',(e) => {
+    // console.log('Yes');
+    horizontal.innerHTML = e.x;
+    vertical.innerHTML = e.y;
+    mouseEvent.style.left = e.x /window.innerWidth * 100 + "%"
+ })
